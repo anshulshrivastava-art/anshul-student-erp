@@ -1,0 +1,30 @@
+{
+  "name": "anshul-student-erp-monorepo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Anshul Student ERP — Monorepo (Frontend, Backend, Database, API)",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "test": "npm --prefix frontend test"
+  },
+  "keywords": [
+    "student-erp",
+    "react",
+    "typescript",
+    "amity",
+    "timetable",
+    "attendance",
+    "bunk-calculator"
+  ],
+  "author": "Anshul Shrivastava",
+  "license": "ISC"
+}
